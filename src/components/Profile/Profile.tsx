@@ -6,7 +6,8 @@ export const Profile = () => {
     <>
     <Helmet> 
       <title>Carventory - Profile</title>
-    </Helmet> 
+    </Helmet>
+
     </>
   )
 }
