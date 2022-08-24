@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import { CarDataTable } from '../DataTable'
 
 export const Cars = () => {
   return (
@@ -7,6 +8,8 @@ export const Cars = () => {
     <Helmet> 
       <title>Carventory - Cars</title>
     </Helmet> 
+
+    <CarDataTable />
     </>
   )
 }
