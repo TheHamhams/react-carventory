@@ -10,9 +10,7 @@ export const NavBar = () => {
         <Navbar.Brand href='#'>Carventory</Navbar.Brand> 
         <Nav className='ms-auto'>
           <Nav.Link href='/'>Home</Nav.Link>
-          <Nav.Link href='/profile'>Profile</Nav.Link>
           <Nav.Link href='/cars'>Cars</Nav.Link>
-          <Nav.Link href='/signin'>Sign in</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

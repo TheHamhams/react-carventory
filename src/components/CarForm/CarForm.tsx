@@ -49,6 +49,9 @@ export const CarForm = (props: CarFormProps) => {
 
   return (
     <div>
+
+      <Container className='border'>
+      <h2 className='text-center'>Add a New Car</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="make">Make</label>
@@ -69,9 +72,9 @@ export const CarForm = (props: CarFormProps) => {
         <div>
           <SBox {...register('accident_on_record')} name="model"/>
         </div>
-        <Button type="submit">Submit</Button>
+        <Button type="submit" className='border'>Submit</Button>
       </form>
-
+      </Container>
     </div>
  
   )

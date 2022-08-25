@@ -12,7 +12,8 @@ export const Cars = () => {
     <div>
       <CarDataTable />
     </div>
-    <div>
+    
+    <div style={{marginTop: '15vh'}}>
       <CarForm />
     </div>
     </>

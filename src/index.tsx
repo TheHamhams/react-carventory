@@ -17,11 +17,8 @@ ReactDOM.render(
       
         <Route path='/' element={[<NavBar />, <Home />]} />
 
-        <Route path='/profile' element={[<NavBar />, <Profile username={tempUsername}/>]} />
-
         <Route path='/cars' element={[<NavBar />, <Cars />]} />
 
-        <Route path='/signin' element={[<NavBar />, <SignIn />]} />
 
       </Routes>
     </Router>
