@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { CarDataTable } from '../DataTable'
+import { CarForm } from '../CarForm'
 
 export const Cars = () => {
   return (
@@ -8,8 +9,12 @@ export const Cars = () => {
     <Helmet> 
       <title>Carventory - Cars</title>
     </Helmet> 
-
-    <CarDataTable />
+    <div>
+      <CarDataTable />
+    </div>
+    <div>
+      <CarForm />
+    </div>
     </>
   )
 }
